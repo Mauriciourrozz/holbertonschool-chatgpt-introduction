@@ -5,7 +5,7 @@ def factorial(n):
         n -= 1
     return result
 
-# Pedir al usuario que ingrese un número
+
 try:
     number = int(input("Ingrese un número para calcular su factorial: "))
     if number < 0:
