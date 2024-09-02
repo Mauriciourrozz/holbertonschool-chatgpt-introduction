@@ -14,7 +14,7 @@ def main():
             print("El factorial no está definido para números negativos.")
         else:
             f = factorial(number)
-            print(f"El factorial de {number} es {f}.")
+            print(f"{f}")
     except ValueError:
         print("Por favor, ingrese un número entero válido.")
 if __name__ == "__main__":
