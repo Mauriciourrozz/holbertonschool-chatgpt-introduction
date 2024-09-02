@@ -7,7 +7,7 @@ def factorial(n):
         n -= 1
     return result
 
-if __name__ == "__main__":
+def main():
     try:
         number = int(input("Ingrese un número para calcular su factorial: "))
         if number < 0:
@@ -17,3 +17,5 @@ if __name__ == "__main__":
             print(f"El factorial de {number} es {f}.")
     except ValueError:
         print("Por favor, ingrese un número entero válido.")
+if __name__ == "__main__":
+    main()
