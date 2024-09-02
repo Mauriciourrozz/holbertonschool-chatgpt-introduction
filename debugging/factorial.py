@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def factorial(n):
     result = 1
     while n > 1:
